@@ -1,0 +1,98 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+
+    background: #21A1F1;
+    /*! box-shadow: o 1px 1px 1px black; */
+    /*! box-shadow: black; */
+    margin-bottom: 1px;
+    /*! box-shadow: black; */
+    box-shadow: 0 1px 1px 1px #d5d4d3f7;
+}
+header nav{
+
+    margin: auto;
+    width: 30%;
+}
+header nav ul{
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+}
+header nav ul li{
+
+}
+header nav ul li a{
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: larger;
+    text-transform: capitalize;
+}
+.content{
+
+    display: flex;
+}
+.left{
+
+    width: 40%;
+    background: #0074E8;
+    padding: 100px 0;
+}
+.left img{
+
+    width: 100%;
+}
+.right_form{
+wi
+;
+    width: 60%;
+    background: #0074E8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_content{
+
+}
+.form_content h3{
+
+    color: #fff;
+    font-size: 30px;
+}
+.form_content p{
+
+    color: #fff;
+    font-size: 19px;
+    margin: 20px 0;
+}
+.form_content h4{
+
+    color: #fff;
+    font-size: 22px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+.form_content form{
+
+}
+.form_content form input{
+
+    width: 100%;
+    border: none;
+    padding: 10px 0 10px 5px;
+    margin: 5px 0;
+}
+.form_content form input[type='Submit']{
+
+    width: 20%;
+    text-align: center;
+    padding-left: 0;
+    text-transform: capitalize;
+    color: #3c3838;
+    font-size: none;
+}
